@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Object Detector Web App</title>
+        <title>Object Detector</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -9,21 +9,15 @@
         <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
-    <body background="BACKGROUND.jpg">
+    <body background="BACKGROUND2.jpg">
         <center>
             <h1 class="heading"> Object Detector </h1>
+            <h3 class="bdr"> Cupboard </h3>
+            <a href="index.html"><button class="btn btn-danger back_btn"> Exit </button></a>
             <br>
-            <h3> Click the button you want to detect. </h3>
+            <button class="btn btn-warning status_btn" id="status"></button>
             <br><br>
-            <a href="bedroom.html"><button class="btn btn-warning button"> Bedroom </button></a>
-            <br><br><br>
-            <a href="bathroom.html"><button class="btn btn-warning button"> Bathroom </button></a>
-            <br><br><br>
-            <a href="cupboard.html"><button class="btn btn-warning button"> Cupboard </button></a>
-            <br><br><br>
-            <a href="kitchen.html"><button class="btn btn-warning button"> Kitchen </button></a>
-            <br><br><br>
-            <a href="living.html"><button class="btn btn-warning button"> Living Room </button></a>
         </center>
+        <script src="cupboard.js"></script>
     </body>
 </html>

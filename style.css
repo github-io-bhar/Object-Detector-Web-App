@@ -12,12 +12,18 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: xx-large;
 }
-.copy_right_footer {
-    position: fixed;
-    color: black;
-    bottom: 0;
-    width: 100%;
-    background-color: gray;
-    line-height: 3;
-    text-align: center;
+.bdr {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.back_btn {
+    margin-left: 1350px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+canvas {
+    box-shadow: 10px 10px 10px gray;
+    border-radius: 10px;
+    margin-top: 120px;
 }
